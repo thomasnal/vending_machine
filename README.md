@@ -8,6 +8,7 @@ Automata (FSM).  I have chosen AASM gem to implement the state machine.
 The state machine describes the solution in a more formal way.  Its operation
 is easier to explain and understand using the diagram below.
 
+![State Machine Diagram](https://github.com/thomasnal/vending_machine/blob/master/doc/vending_machine_states.jpg)
 
 Notes:
 * Each story is validated by one of the tests
