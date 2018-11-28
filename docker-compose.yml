@@ -1,0 +1,28 @@
+version: '3.4'
+
+services:
+  app:
+    tty: true
+    build:
+      context: .
+      target: devel
+    image: vending-machine
+    hostname: app
+    volumes:
+      - .:/var/www/html:cached
+      - app_home_folder:/home/app
+      - bundle:/bundle
+    ports:
+      - "80:80"
+    environment:
+      APP_HOME: /var/www/html
+      BUNDLE_PATH: /bundle
+      PASSENGER_APP_ENV: development
+      TERM: xterm-256color
+
+volumes:
+  bundle:
+    external: false
+
+  app_home_folder:
+    external: false

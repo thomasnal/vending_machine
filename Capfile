@@ -1,0 +1,15 @@
+require 'capistrano/setup'
+require 'capistrano/deploy'
+require 'capistrano/bundler'
+require 'capistrano/rails/assets'
+require 'capistrano/nginx'
+require 'capistrano/rvm'
+require 'capistrano/puma'
+require 'capistrano/puma/nginx'
+require 'capistrano/rails/db'
+require 'capistrano/rails/migrations'
+require 'capistrano/rails/console'
+require 'capistrano/upload-config'
+require 'sshkit/sudo'
+
+Dir.glob("lib/capistrano/tasks/*.rake").each { |r| import r }

@@ -1,0 +1,18 @@
+en:
+  hello: "Hello world"
+  warnings:
+    page_dont_exist: "Unfortunatly page you requested doesn't exist"
+  success:
+    post_form_created: "Thank you for the request.  MakeItCheaper will contact you"
+  lead_api_errors:
+    name_is_required: "Name is required"
+    firstname_space_lastname: "Name must contain firstname and lastname separe by space (e.g. 'John Smith')"
+    business_is_required: "Business name is required"
+    business_100_chars: "Business name can contain max 100 chars"
+    phone_number_required: "Telephone number is required"
+    phone_number_11_numbers: "Telephone number need 11 numbers (can accept international syntax +44)"
+    email_wrong_format: "Email invalid"
+    conteact_time_wrong: "Contact Time format is invalid, must be in the future (e.g. 2999-12-31 23:59:59)"
+    notes_max_255_chars: "Notes can contain max 255 chars"
+    reference_less_50_chars: "Reference can contain 50 chars"
+    internal_error_retry_later: "Internal app error, try again later."

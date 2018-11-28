@@ -1,0 +1,16 @@
+/.bundle
+/log/*
+/tmp/*
+/vendor/*
+!/log/.keep
+!/tmp/.keep
+!/vendor/.keep
+/node_modules
+/yarn-error.log
+.byebug_history
+.env
+db/*.sqlite3
+db/*.sql
+puma_staging.rb
+public/assets
+**/Thumbs.db

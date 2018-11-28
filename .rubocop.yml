@@ -1,0 +1,25 @@
+Style/BlockLength:
+  Exclude:
+    - 'spec/**/*.rb'
+
+Style/LineLength:
+  Max: 130
+  Exclude:
+    - 'spec/**/*.rb'
+    - 'app/services/lead_api_service.rb'
+
+Style/Documentation:
+  Exclude:
+    - 'app/**/*.rb'
+    - 'spec/**/*.rb'
+
+AllCops:
+  Exclude:
+    - 'config.ru'
+    - 'Capfile'
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'config/**/*'
+    - 'db/**/*'
+    - 'bin/**/*'
+    - 'lib/**/*'
